@@ -1,0 +1,32 @@
+{
+  "name": "codemaker-node-get-post-service",
+  "version": "1.0.0",
+  "description": "this will teach you how to create basic get and post server endpoints using node js without express js.",
+  "main": "basicMessageServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martandsingh/NodeJsGetPostService.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "get",
+    "server",
+    "post",
+    "server",
+    "node",
+    "tutorials",
+    "codemaker",
+    "getpost",
+    "service"
+  ],
+  "author": "Martand Singh (CodeMaker)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martandsingh/NodeJsGetPostService/issues"
+  },
+  "homepage": "https://github.com/martandsingh/NodeJsGetPostService#readme"
+}
