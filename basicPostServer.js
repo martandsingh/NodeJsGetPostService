@@ -2,9 +2,10 @@
 /**Author : Martand Singh
  * Date : 04 July 2018
  * Scope : Node JS - Part 4. Learn how to make basic post service using Node Js
- * Facebook : www.facebook.com/codemakerz
- * Youtube : www.youtube.com/martand89
- * GitHub : ww.github.com/martandsingh
+ * Facebook : https://www.facebook.com/codemakerz
+ * Youtube : https://www.youtube.com/martand89
+ * GitHub Profile: https://www.github.com/martandsingh
+ * Repository Url : https://github.com/martandsingh/NodeJsGetPostService
  */
 
 var http = require('http');
@@ -19,10 +20,11 @@ var server = http.createServer().listen(3000); //3000 port no. you can change it
 server.on('request', function (req, res) {
 
     //check if the request is of POST type
-    if (req.method == 'POST') {
+    if (req.method === 'POST') {
         var body = '';
         console.log("PostRequest"); //printing log
     }
+   
 /**
  * here we are defining another event listener for event name data.
  * so if there is data, then we will append all the data in a variable named body.
@@ -44,3 +46,6 @@ server.on('request', function (req, res) {
 });
 
 console.log('Listening on port 3000');
+
+//lets start the service...
+//here we see how creating a post service is so easy...
